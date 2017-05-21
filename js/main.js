@@ -1,2 +1,2 @@
 gameManager
-.create(800, 600, Phaser.AUTO, 'phaser-canvas', 'menu');
+.create(360, 640, Phaser.AUTO, 'phaser-canvas', 'menu');

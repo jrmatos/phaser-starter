@@ -9,6 +9,8 @@
     }   
     
     MenuState.prototype.create = function() {
+
+        this.game.stage.backgroundColor = '#f00';
         
         var startButton = this.game.add.button(this.game.world.centerX, this.game.world.centerY + 150, 'start', startButtonClicked, this);
         startButton.anchor.set(0.5);
